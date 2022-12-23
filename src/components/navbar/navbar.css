@@ -1,0 +1,26 @@
+.navContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.item {
+  text-decoration: none;
+  color: var(--dark-color1);
+}
+.active.item {
+  color: var(--primary-color);
+}
+.item:hover {
+  text-decoration: none;
+}
+
+.ui.secondary.pointing.menu .active.item {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+@media screen and (max-width: 900px) {
+  .nav-logo {
+    width: 50%;
+  }
+}
