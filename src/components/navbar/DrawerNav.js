@@ -13,18 +13,10 @@ import MenuIcon from "@mui/icons-material/Menu";
 import { useGlobalContext } from "../../context/context";
 import { Link } from "react-router-dom";
 import { Container } from "@mui/system";
-import {
-  Call,
-  Home,
-  Info,
-  ProductionQuantityLimits,
-  SettingsAccessibility,
-  Collections,
-  Newspaper,
-} from "@mui/icons-material";
+import { Call } from "@mui/icons-material";
 
 const DrawerNav = () => {
-  const { activeNav, handleLinks } = useGlobalContext();
+  const { activeNav, handleLinks, navbar } = useGlobalContext();
   const [openDrawer, setOpenDrawer] = useState(false);
   return (
     <>
@@ -51,7 +43,7 @@ const DrawerNav = () => {
                         className={
                           activeNav === `${url}`
                             ? "item active"
-                            : "item"
+                            : "item itemActive"
                         }
                       >
                         {icon} {"  "} {text}
@@ -78,7 +70,11 @@ const DrawerNav = () => {
         </div>
       </Drawer>
       <IconButton onClick={() => setOpenDrawer(!openDrawer)}>
-        <MenuIcon />
+        <MenuIcon
+          style={{
+            color: navbar ? "black" : "white",
+          }}
+        />
       </IconButton>
     </>
   );

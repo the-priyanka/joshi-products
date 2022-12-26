@@ -5,13 +5,31 @@
 }
 .item {
   text-decoration: none;
-  color: var(--dark-color1);
+  color: var(--white-color) !important;
+}
+.navContact {
+  color: var(--white-color) !important;
+}
+.itemActive {
+  color: var(--dark-color1) !important;
 }
 .active.item {
-  color: var(--primary-color);
+  color: var(--primary-color) !important;
 }
 .item:hover {
   text-decoration: none;
+}
+
+.navbarContainer {
+  transition: all 0.3s;
+}
+
+.navbarContainer.activeNav {
+  background: var(--white-color) !important;
+}
+
+.ui.secondary.pointing.menu {
+  border-bottom: 2px solid rgba(244, 244, 244, 0.559) !important;
 }
 
 .ui.secondary.pointing.menu .active.item {

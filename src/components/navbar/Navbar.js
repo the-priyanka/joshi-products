@@ -4,20 +4,31 @@ import { Link } from "react-router-dom";
 import { useGlobalContext } from "../../context/context";
 import { links } from "../../data";
 import logo from "../../img/logo.png";
+import logo2 from "../../img/logo (1).png";
 import DrawerNav from "./DrawerNav";
 import { useMediaQuery, useTheme } from "@mui/material";
 
 const Navbar = () => {
-  const { activeNav, handleLinks } = useGlobalContext();
+  const { activeNav, handleLinks, navbar } = useGlobalContext();
   const theme = useTheme();
   const isMatch = useMediaQuery(theme.breakpoints.down("md"));
 
   return (
     <>
-      <div className="ui secondary pointing menu">
+      <div
+        className={
+          navbar
+            ? "ui secondary pointing menu fixed navbarContainer activeNav"
+            : "ui secondary pointing menu fixed navbarContainer"
+        }
+      >
         <div className="left menu">
           <Link className="ui item">
-            <img className="ui image nav-logo" src={logo} alt="" />
+            <img
+              className="ui image nav-logo"
+              src={navbar ? logo : logo2}
+              alt=""
+            />
           </Link>
         </div>
         {isMatch ? (
@@ -28,8 +39,16 @@ const Navbar = () => {
               className="contact-head-details"
               style={{ textAlign: "end", marginRight: "14px" }}
             >
-              <h3 className="ui header">
-                <span className="primary">For Trade Enquiry :</span>
+              <h3
+                className={
+                  navbar
+                    ? "ui header navContact itemActive"
+                    : "ui header navContact"
+                }
+              >
+                <span className="primary primaryTextColor">
+                  For Trade Enquiry :{" "}
+                </span>{" "}
                 09669000006, 08959595939
               </h3>
             </div>
@@ -42,7 +61,13 @@ const Navbar = () => {
                     to={url}
                     onClick={() => handleLinks(url)}
                     className={
-                      activeNav === `${url}` ? "item active" : "item"
+                      navbar
+                        ? activeNav === `${url}`
+                          ? "item active"
+                          : "item itemActive"
+                        : activeNav === `${url}`
+                        ? "item active"
+                        : "item"
                     }
                   >
                     {text}

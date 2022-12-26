@@ -1,7 +1,7 @@
 import React from "react";
 import "./home.css";
 import homeAboutImg from "../../img/home-background.png";
-import contactGIF from "../../img/843ba4_bd3021bc6649414fa9451b5029146550_mv2.gif";
+import contactGIF from "../../img/contact.gif";
 import { Button, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 

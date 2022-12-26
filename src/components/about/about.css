@@ -1,0 +1,10 @@
+.about-container {
+  background-image: url(../../img/about.gif) !important;
+}
+
+@media screen and (min-width: 1000px) {
+  .aboutTextContainer {
+    width: 80%;
+    margin: auto !important;
+  }
+}

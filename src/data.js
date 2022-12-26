@@ -8,6 +8,7 @@ import {
   Newspaper,
   Call,
 } from "@mui/icons-material";
+import Aamkhand from "../src/img/products/aamkhand.jpg";
 
 export const links = [
   {
@@ -62,5 +63,67 @@ export const socialIcons = [
   {
     icon: <BsInstagram />,
     url: "https://www.instagram.com/khushboolassi/",
+  },
+];
+
+export const itemData = [
+  {
+    img: "img/products/aamkhand.jpg",
+    title: "Aamkhand",
+    rows: 2,
+    cols: 2,
+    featured: true,
+  },
+  {
+    img: "img/products/butter.jpg",
+    title: "Butter",
+  },
+  {
+    img: "img/products/chakka.jpg",
+    title: "Chakka",
+  },
+  {
+    img: "img/products/chanch.jpg",
+    title: "Chanch",
+    cols: 2,
+  },
+  {
+    img: "img/products/cream.jpg",
+    title: "Cream",
+    cols: 2,
+  },
+  {
+    img: "img/products/dahi.jpg",
+    title: "Dahi",
+    rows: 2,
+    cols: 2,
+    featured: true,
+  },
+  {
+    img: "img/products/ghee.jpg",
+    title: "Ghee",
+  },
+  {
+    img: "img/products/lassi.jpg",
+    title: "Lassi",
+  },
+  {
+    img: "img/products/milk.jpg",
+    title: "Milk",
+    rows: 2,
+    cols: 2,
+  },
+  {
+    img: "img/products/paneer.jpg",
+    title: "Paneer",
+  },
+  {
+    img: "img/products/plassi.jpg",
+    title: "Plassi",
+  },
+  {
+    img: "img/products/shrikhand.jpg",
+    title: "Shrikhand",
+    cols: 2,
   },
 ];

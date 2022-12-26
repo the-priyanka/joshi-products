@@ -18,6 +18,21 @@ body {
 .marginBottom {
   margin-bottom: 2rem;
 }
+.commonContainer {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  text-align: center;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.mainHeading {
+  color: var(--white-color);
+  font-family: var(--pacifico-family) !important;
+}
 
 @media screen and (max-width: 500px) {
   .css-1lugpt4-MuiTypography-root {
