@@ -1,0 +1,35 @@
+.contactContainer {
+  background-image: url(../../img/contactBackground.gif) !important;
+}
+
+.contactContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.contact-map {
+  margin: 0 !important;
+  min-width: 40vw;
+}
+
+.contactHeading {
+  font-family: var(--pacifico-family) !important;
+  margin-bottom: 27px !important;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .contactContent {
+    flex-direction: column !important;
+  }
+  .contact-map {
+    min-width: 84vw;
+  }
+}
+@media screen and (max-width: 500px) {
+  .contact-map {
+    min-width: 91vw;
+  }
+}

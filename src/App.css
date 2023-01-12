@@ -13,7 +13,7 @@ body {
   background: rgb(240, 255, 243);
 }
 .primaryTextColor {
-  color: var(--primary-color);
+  color: var(--primary-color) !important;
 }
 .marginBottom {
   margin-bottom: 2rem;
@@ -23,7 +23,7 @@ body {
   background-size: cover !important;
   background-position: center !important;
   text-align: center;
-  height: 50vh;
+  height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,10 +32,16 @@ body {
 .mainHeading {
   color: var(--white-color);
   font-family: var(--pacifico-family) !important;
+  line-height: 1.5 !important;
+}
+.column {
 }
 
 @media screen and (max-width: 500px) {
   .css-1lugpt4-MuiTypography-root {
     font-size: 1.8rem !important;
+  }
+  .commonContainer {
+    height: 50vh;
   }
 }

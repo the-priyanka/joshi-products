@@ -8,7 +8,6 @@ import {
   Newspaper,
   Call,
 } from "@mui/icons-material";
-import Aamkhand from "../src/img/products/aamkhand.jpg";
 
 export const links = [
   {
@@ -66,7 +65,7 @@ export const socialIcons = [
   },
 ];
 
-export const itemData = [
+export const aboutData = [
   {
     img: "img/products/aamkhand.jpg",
     title: "Aamkhand",
@@ -125,5 +124,77 @@ export const itemData = [
     img: "img/products/shrikhand.jpg",
     title: "Shrikhand",
     cols: 2,
+  },
+];
+
+export const infrastructureData = [
+  {
+    img: "img/infrastructure/i1.jpg",
+  },
+  {
+    img: "img/infrastructure/i2.jpg",
+  },
+  {
+    img: "img/infrastructure/i3.jpg",
+  },
+  {
+    img: "img/infrastructure/i4.jpg",
+  },
+  {
+    img: "img/infrastructure/i5.jpg",
+  },
+  {
+    img: "img/infrastructure/i6.jpg",
+  },
+  {
+    img: "img/infrastructure/i7.jpg",
+  },
+  {
+    img: "img/infrastructure/i8.jpg",
+  },
+  {
+    img: "img/infrastructure/i9.jpg",
+  },
+  {
+    img: "img/infrastructure/i10.jpg",
+  },
+  {
+    img: "img/infrastructure/i11.jpg",
+  },
+  {
+    img: "img/infrastructure/i12.jpg",
+  },
+  {
+    img: "img/infrastructure/i13.jpg",
+  },
+  {
+    img: "img/infrastructure/i14.jpg",
+  },
+];
+
+export const galleryData = [
+  {
+    img: "img/gallery/g1.jpg",
+    title: "Bed",
+  },
+  {
+    img: "img/gallery/g2.jpg",
+    title: "Kitchen",
+  },
+  {
+    img: "img/gallery/g3.jpg",
+    title: "Sink",
+  },
+  {
+    img: "img/gallery/g4.jpg",
+    title: "Books",
+  },
+  {
+    img: "img/gallery/g5.jpg",
+    title: "Chairs",
+  },
+  {
+    img: "img/gallery/g6.jpg",
+    title: "Candle",
   },
 ];

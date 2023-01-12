@@ -1,7 +1,12 @@
 import React from "react";
+import Infrastructure from "../components/Infrastructure";
 
-const Infrastructure = () => {
-  return <div>Infrastructure</div>;
+const InfrastructurePage = () => {
+  return (
+    <div>
+      <Infrastructure />
+    </div>
+  );
 };
 
-export default Infrastructure;
+export default InfrastructurePage;

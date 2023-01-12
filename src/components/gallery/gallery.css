@@ -1,0 +1,14 @@
+.GalleryContainer {
+  background-image: url(../../img/gallery.gif) !important;
+}
+.galleryContent {
+  width: 100vw;
+  margin: auto;
+  height: auto;
+}
+
+@media screen and (min-width: 1500px) {
+  .galleryContent {
+    width: 50vw;
+  }
+}

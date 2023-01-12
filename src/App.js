@@ -13,6 +13,7 @@ import HomePage from "./pages/HomePage";
 import Infrastructure from "./pages/InfrastructurePage";
 import NavbarPage from "./pages/NavbarPage";
 import ProductsPage from "./pages/ProductsPage";
+import NewsPage from "./pages/NewsPage";
 
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
@@ -44,6 +45,7 @@ function App() {
               element={<Infrastructure />}
             />
             <Route path="/gallery" exact element={<GalleryPage />} />
+            <Route path="/news" exact element={<NewsPage />} />
             <Route path="/contact" exact element={<ContactPage />} />
           </Routes>
         </Router>

@@ -1,0 +1,15 @@
+.infraContainer {
+  background-image: url(../../img/infrastructure.gif) !important;
+}
+
+.infraContent {
+  width: 100vw;
+  margin: auto;
+  height: auto;
+}
+
+@media screen and (min-width: 1500px) {
+  .infraContent {
+    width: 50vw;
+  }
+}
