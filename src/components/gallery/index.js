@@ -1,6 +1,6 @@
 import React from "react";
 import "./gallery.css";
-import MainHead from "../MainHead";
+import MainHead from "../mainHead";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
 import { galleryData } from "../../data";

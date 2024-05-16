@@ -6,7 +6,7 @@ import {
   responsiveFontSizes,
   ThemeProvider,
 } from "@mui/material/styles";
-import MainHead from "../MainHead";
+import MainHead from "../mainHead";
 
 const About = () => {
   let theme = createTheme();
