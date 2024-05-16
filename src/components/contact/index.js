@@ -77,7 +77,7 @@ const Contact = () => {
         <div className="ui raised very segment contact-map">
           <ThemeProvider theme={theme}>
             <Typography variant="h3" className="contactHeading">
-              Khushboo Lassi
+              Joshi Lassi
             </Typography>
           </ThemeProvider>
 

@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"; 
 import Infrastructure from "../components/Infrastructure";
 
 const InfrastructurePage = () => {

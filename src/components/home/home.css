@@ -54,6 +54,9 @@ p {
   font-size: 18px;
   font-family: var(--sourceSansPro-family);
 }
+.home-content{
+  line-height: 5;
+}
 .home-content-container {
   display: flex;
   align-items: inherit;
