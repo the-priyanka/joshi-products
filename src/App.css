@@ -34,8 +34,6 @@ body {
   font-family: var(--pacifico-family) !important;
   line-height: 1.5 !important;
 }
-.column {
-}
 
 @media screen and (max-width: 500px) {
   .css-1lugpt4-MuiTypography-root {

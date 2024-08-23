@@ -1,6 +1,6 @@
 import React from "react";
 import "./news.css";
-import MainHead from "../mainHead";
+import MainHead from "../MainHead";
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
 import TableCell from "@mui/material/TableCell";

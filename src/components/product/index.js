@@ -1,6 +1,6 @@
 import React from "react";
 import "./product.css";
-import MainHead from "../mainHead";
+import MainHead from "../MainHead";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
 import ImageListItemBar from "@mui/material/ImageListItemBar";
