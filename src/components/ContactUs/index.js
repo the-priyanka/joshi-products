@@ -1,6 +1,6 @@
 import React from "react";
 import "./contact.css";
-import MainHead from "../MainHead";
+import MainHead from "../MainHeadComp";
 import {
   createTheme,
   responsiveFontSizes,
