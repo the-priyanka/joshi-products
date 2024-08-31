@@ -39,7 +39,10 @@ const DrawerNav = () => {
                     <ListItemText>
                       <Link
                         to={url}
-                        onClick={() => handleLinks(url)}
+                        onClick={() => {
+                          handleLinks(url);
+                          setOpenDrawer(false);
+                        }}
                         className={
                           activeNav === `${url}`
                             ? "item active"
