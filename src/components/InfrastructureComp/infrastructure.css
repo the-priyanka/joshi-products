@@ -1,5 +1,6 @@
 .infraContainer {
-  background-image: url(../../img/infra.jpg) !important;
+  background-color: black !important;
+  /* background-image: url(../../img/infra.jpg) !important; */
 }
 
 .infraContent {
